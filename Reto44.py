@@ -14,9 +14,9 @@ def change_utc(fecha):
     fecha_utc = fecha_local.astimezone(pytz.utc)
     return fecha_utc
 
-start_month = input("Introduce el mes")
-start_day = input("Introduce el día")
-start_hour = input("Introduce la hora")
+start_month = input("Introduce el mes: ")
+start_day = input("Introduce el día: ")
+start_hour = input("Introduce la hora: ")
 start_minute = input("Introduce el minuto: ")
 start_second = input("Introduce el segundo: ")
 
